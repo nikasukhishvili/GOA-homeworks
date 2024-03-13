@@ -13,7 +13,7 @@ for y in range(6):
     total += y
 print("ჯამი:", total) 
 
-my_string = "ბატონი ლუკა"
+string = "ბატონი ლუკა"
 print("ასოები წინადადებაში:")
-for char in my_string:
+for char in string:
     print(char)
