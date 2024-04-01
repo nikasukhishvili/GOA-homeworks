@@ -22,15 +22,14 @@ full_name = "nika sukhishvili"
 print("first name:", full_name[:4])
 print("last name:", full_name[5:])
 
-favorite_movies = ["saving private ryan", "barbie", "Nika keshelava the movie", "Pirates of the Shavi sea", "Fight clan"]
-print("Combination 1:", favorite_movies[:3])
-print("Combination 2:", favorite_movies[2:])
-print("Combination 3:", favorite_movies[1:4])
-print("Combination 4:", favorite_movies[:-2])
+ფaვorit_movies = ["saving private ryan", "barbie", "Nika keshelava the movie", "Pirates of the Shavi sea", "Fight clan"]
+print("Combination 1:", ფaვorit_movies[:3])
+print("Combination 2:", ფaვorit_movies[2:])
+print("Combination 3:", ფaვorit_movies[1:4])
+print("Combination 4:", ფaვorit_movies[:-2])
 
-# Task 5
-academy_name = input("Enter the name of the academy: ")
-if academy_name.startswith("G"):
-    print("Goa is the best choice.")
+academy_name = input("enter the name of the academy: ")
+if academy_name.startswith("Goa"):
+    print("Goa is the best!!!1!111!1!! +10000000 social credits!!11!1111")
 else:
-    print("You made a wrong decision.")
+    print("You FOOL! GO to Jail")
