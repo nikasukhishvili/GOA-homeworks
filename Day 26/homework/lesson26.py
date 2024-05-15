@@ -14,11 +14,12 @@ def find_index(word, letter):
         index += 1
 
 index = find_index("GOA", "A")
-print("Index of ' ", index) 
+print("Index of the chosen letter:", index) 
 
-def len(lst):
+def amount_words(lst):
     count = 0
-    for w in lst:
+    for w in (lst):
         count += 1
 
-print('Amount of words in my list' , len(['goa', 'saba', 'gela']))
+count = amount_words(['goa', 'saba', 'gela'])
+print('Amount of words in my list' , count)
