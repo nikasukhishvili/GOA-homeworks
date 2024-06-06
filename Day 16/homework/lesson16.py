@@ -42,4 +42,4 @@ print("Sum of numbers at even indices:", sum_even_indices([1, 2, 3, 4, 5]))
 print("Sum of odd and even numbers separately:", sum_odd_even([1, 2, 3, 4, 5]))
 print("Count of elements in the list:", count_elements([1, 2, 3, 4, 5]))
 
-print("Replace 'apple' with 'banana':", my_replace("I like apple", "apple", "banana"))
+print("Replace apple with banana:", my_replace("I like apple", "apple", "banana"))

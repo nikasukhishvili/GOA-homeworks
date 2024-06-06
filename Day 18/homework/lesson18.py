@@ -15,7 +15,7 @@ while True:
         print("number of tries", counter)
         break
 
-word = input("Enter a word: ")
+word = str(input("Enter a word: "))
 converted_word = ""
 for i in range(len(word)):
     if i % 2 == 0:
@@ -25,7 +25,7 @@ for i in range(len(word)):
 print("Converted word:", converted_word)
 
 
-name = "sabashubashishvili"  
+name = "nika"  
 if len(name) > 5:
     converted_name = name.upper()
 else:
@@ -33,18 +33,18 @@ else:
 print("Converted name:", converted_name)
 
 
-names = ["saba", "shubashishvili"]
-capitalized_names = [names.capitalize()]
+nameandsurname = ["nika", "sukhishvili"]
+capitalized_names = [nameandsurname.capitalize()]
 print("Capitalized names:", capitalized_names)
 
-# Outputting user's initials as a string:
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-initials = first_name[0].capitalize() + "." + last_name[0].capitalize()
-print("Initials:", initials)
 
-# Printing index of the first letter in a word:
-word = input("Enter a word: ")
+first_name = str(input("enter first name: "))
+last_name = str(input("enter last name: "))
+initials = first_name[0].capitalize() + "." + last_name[0].capitalize()
+print("initials:", initials)
+
+
+word = str(input("Enter a word: "))
 search_letter = input("Enter the letter to search: ")
 index = word.find(search_letter)
 print("Index of the first letter:", index)

@@ -1,5 +1,5 @@
 def function(string):
-   return (string.lower(), string.upper(), string.capitalize(), string.find('goa'))
+   return (string.lower(), string.upper(), string.capitalize(), string.find('enter here'))
 print (function("goa"))
 
 def modifyandjoin(names_list):

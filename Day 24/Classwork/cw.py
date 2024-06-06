@@ -23,8 +23,11 @@ def fake_bin(x)
 #fifth link
 def count_by(given, multiple):
     numbers = []
-    for i in range(0, multiple):
+    for i in range(1, multiple+1):
         numbers.append(given * i)
     return numbers
 
-print(count_by(1, 10))
+print(count_by(2, 5))
+
+#kyu 7
+#first link
