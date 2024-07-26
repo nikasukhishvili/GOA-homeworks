@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #007BFF;
+    transition: transform 2s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.5) rotate(45deg) translate(50px, 50px) skew(10deg, 10deg)
+}
+/* scale ზრდის ან ამცირებს ზომას.*/
+/* rotate ატრიალებს გარკვეული კუთხით*/
+/* translate თავდაპირველი პოზიციიდან სხვა პოზიციაზე გადაჰყავს.*/
+/* skew  ამახინჯებს X და Y ღერძების განსწვრივ გარკვეული კუთხით.*/
